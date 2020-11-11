@@ -1,0 +1,53 @@
+Installing pip dependencies
+
+It is strongly recommended to create a new Python virtual environment for this unit to prevent cross-dependency issues.
+
+* Open the terminal and run the following command to create a brand new Python virtual environment for this unit.
+
+  ```shell
+  conda create -n ethereum python=3.7 anaconda
+  ```
+* Activate the new environment.
+
+  ```shell
+  conda activate ethereum
+  ```
+
+* Use the `pip install` command to download and install the `web3.py` module.
+
+  ```shell
+  pip install web3
+  ```
+
+  ![web3-install](Images/web3-install.png)
+
+* Use the `pip install` command to download and install the `bit` module.
+
+  ```shell
+  pip install bit
+  ```
+
+  ![bit-install](Images/bit-install.png)
+
+## Verify Installation
+
+Once the `web3.py` and `bit` modules are downloaded and installed, verify that both installations completed successfully. 
+
+* Use the `conda list package_name` command, substituting `package_name` with `web3` to verify if the `web3` library installed successfully.
+
+  ```shell
+  conda list web3
+  ```
+
+  ![web3-verify](Images/web3-verify.png)
+
+* Use the `conda list package_name` command, substituting `package_name` with `bit` to verify if the `bit` library installed successfully.
+
+  ```shell
+  conda list bit
+  ```
+
+  ![bit-verify](Images/bit-verify.png)
+
+
+
